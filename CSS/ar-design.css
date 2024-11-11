@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+html,
+body{
+    direction: rtl;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.about-page .container .info .title{
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.about-page .container .info .title::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    background-image: var(--background-linear);
+    right: -10px;
+    left: 0;
+}
+
+.footer .container .top .right .helpful-link ul li img{
+    transform: rotate(180deg);
+}
+
+.medicine .container .title{
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.medicine .container .title::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    background-image: var(--background-linear);
+    left: 0;
+    right: -10px;
+}
+
+.header .container .top .search i{
+    left: 13px;
+    right: auto;
+}
+
+.medicine .container .categ .text{
+    right: -403px !important;
+}
+
+.medicine .container .categ:hover .text{
+    right: 0 !important;
+}
+
+.btn .image {
+    transform: rotate(180deg);
+}
+
+.btn::before{
+    right: 0 !important;
+}
+
+.news .ne .new .top .date {
+    position: absolute;
+    background-color: #b1e1f0;
+    top: 0;
+    border-top-left-radius: 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80px;
+    gap: 0;
+    border-top-right-radius: 10px;
+}
+
+.gen .male {
+    position: relative;
+    margin-right: 50px;
+    width: 90px;
+    height: 90px;
+    background-color: #50C8EF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.gen .female {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    background-color: #FF4181;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+
+.cont-form .general .title{
+    text-align: right !important;
+}
+
+.personal-info .title {
+    text-align: right !important;
+}
+
+.prod .det{
+    right: -601px;
+}
+
+.prod:hover .det {
+    display: flex;
+    right: 0;
+    transition: 0.5s all ease;
+}
+
+.prod .det .title{
+    text-align: right;
+}
+
+.prod .det .sub-tit{
+    text-align: right;
+}
